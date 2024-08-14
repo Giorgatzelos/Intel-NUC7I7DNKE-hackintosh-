@@ -25,7 +25,7 @@
 - Wake Sleep
 - Built-in Bluetooth 
 - WiFi/Bluetooth/Unlock-Approve with Apple Watch/Airdrop/Continuity/Universal Control
-- Audio
+- Audio (over USB or Bluetooth as audio card is absent in this model)
 ![](https://github.com/extric99/Hackintosh-NUC7I7DNKE/blob/master/screenshot/Screenshot_Audio.png)
 - Sleep and Wake from mouse or keyboard (improved from last version)
 - Framebuffer for hardware acceleration (encoding/decoding/preview)
