@@ -1,6 +1,6 @@
 # Hackintosh NUC7I7DNKE
 
-## Verified working with Monterey 12.4 and BigSur 11.6.3. Ventura BETA EFI can be dowloaded under open issues.
+## Verified working with macOS BigSur 11.6.3, Monterey 12.4, Ventura and Sonoma 14.6.1
 ## Important NVME required for Monterey and above. Read below when using Big Sur or earlier with SATA.
 
 
@@ -11,9 +11,9 @@
 - BIOS: 0069
 - CPU: i7-8650U
 - RAM: 2x 32GB Crucial CT32G4SFD832A 2133 MHz, DDR4
-- Storage: 1TB NVME WD SN550
+- Storage: 1TB M.2 NVMe Samsung 970 Evo Plus SSD 1000GB  
 - dGPU: N/A
-- WIFI/BT: Just the DW1560 BT/wifi is supported by this built. It is advisable to replace the default module as the DW1560 will provide feature parity with a real Mac. Due to bluetooth issues, please do your own research for the Intel module.
+- WIFI/BT: BCM943602BAED_2 BT/wifi is supported by this built. It is advisable to replace the default module as the BCM943602BAED_2 will provide feature parity with a real Mac. Due to bluetooth issues, please do your own research for the Intel module.
 
 - SMIBIOS 8,1
 - OpenCore 0.7.7 - 0.9.9
