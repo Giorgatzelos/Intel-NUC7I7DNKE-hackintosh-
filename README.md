@@ -13,7 +13,7 @@
 - RAM: 2x 32GB Crucial CT32G4SFD832A 2133 MHz, DDR4
 - Storage: 1TB M.2 NVMe Samsung 970 Evo Plus SSD 1000GB  
 - dGPU: N/A
-- WIFI/BT: BCM943602BAED_2 BT/wifi is supported by this built. It is advisable to replace the default module as the BCM943602BAED_2 will provide feature parity with a real Mac. Due to bluetooth issues, please do your own research for the Intel module.
+- WIFI / BT: BCM943602BAED_2  BT / WiFi is supported by this built. It is advisable to replace the default module as the BCM943602BAED_2 will provide feature parity with a real Mac. Due to bluetooth issues, please do your own research for the Intel module.
 
 - SMIBIOS 8,1
 - OpenCore 0.7.7 - 0.9.9
@@ -24,7 +24,7 @@
 - Quick boot into MacOS and rock solid
 - Wake Sleep
 - Built-in Bluetooth 
-- Wifi/Bluetooth/Unlock-Approve with Apple Watch/Airdrop/Continuity/Universal Control
+- WiFi/Bluetooth/Unlock-Approve with Apple Watch/Airdrop/Continuity/Universal Control
 - Audio
 ![](https://github.com/extric99/Hackintosh-NUC7I7DNKE/blob/master/screenshot/Screenshot_Audio.png)
 - Sleep and Wake from mouse or keyboard (improved from last version)
@@ -35,8 +35,8 @@
 
 
 ## Known Issues
+
 - DRM issues that are inherent to integrated iGPU only. Chrome seems to allow more DRM content.
-- Built-in wifi does not work. Since I replaced the wifi module I can not test the itwlm kext for intel wifi. If you need the intel wifi to work please add the kext yourself. [Download Intel Wifi kext here](https://github.com/OpenIntelWireless/itlwm)
 - native SATA Support broken in BigSur but workaround is available in the config.plist. You can enable it if you have a SATA boot devices in BigSur. Not this does not work in Monterey, here an NVME is required. For Catalina, please keep also disabled to use native SATA functionality.
 
 ## Bios Setup:
