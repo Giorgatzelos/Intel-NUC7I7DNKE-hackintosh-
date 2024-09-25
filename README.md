@@ -15,7 +15,7 @@
 - dGPU: N/A
 - WIFI / BT: BCM943602BAED_2  BT / WiFi is supported by this built. It is advisable to replace the default module as the BCM943602BAED_2 will provide feature parity with a real Mac. Due to bluetooth issues, please do your own research for the Intel module.
 
-- SMIBIOS 8,1
+- SMBIOS Mac Mini 8,1
 - OpenCore 0.7.7 - 0.9.9
 
 ![](https://github.com/extric99/Hackintosh-NUC7I7DNKE/blob/master/screenshot/Screenshot_OC.png)
